@@ -1,0 +1,56 @@
+.form-part {
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.form-part.list {
+    height: 89%;
+    margin-bottom: 1%;
+}
+
+.form-part.edit {
+    background-color: bisque;
+}
+
+.form-part.edit > div {
+    margin: 0px auto;
+    width: 50%;
+}
+
+.form-part.edit input, input:focus {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.form-part.control > button {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.controls-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.list .list-container {
+    top: 5%;
+    width: 100%;
+    height: 32rem;
+    overflow-y: scroll;
+}
+
+.list .list-container .record {
+    width: 90%;
+    margin: 5px auto;
+    border: 1px solid black;
+    background-color: beige;
+    cursor: pointer;
+}
+
+.list .list-container .record:hover {
+    background-color: #b1bac2;
+}

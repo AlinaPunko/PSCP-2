@@ -1,0 +1,11 @@
+html, body {
+    height: 100%;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+}
